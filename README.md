@@ -1,6 +1,30 @@
-1. запуск docker compose --- docker compose up -d
-2. pgAdmin http://localhost:5050/browser/ and set "password"
-3. 
+1. запуск **docker compose** --- docker compose up -d
+2. **pgAdmin** http://localhost:5050/browser/ and set "password"
+3. start **ZIPKIN** https://zipkin.io/pages/quickstart.html
+4. rabbitmq management http://localhost:15672/ login:pass -- guest
+5. **Build Life Cycle** ---> https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
+6. запуск **jar file** -> java -jar eureka-server/target/eureka-server-1.0-SNAPSHOT.jar в root папке
+7. **DOCKER** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---------------------------- для запуска postgres первичный вариант ---------------------------
 services:
