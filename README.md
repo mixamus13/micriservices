@@ -4,20 +4,23 @@
 4. rabbitmq management http://localhost:15672/ login:pass -- guest
 5. **Build Life Cycle** ---> https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
 6. запуск **jar file** -> java -jar eureka-server/target/eureka-server-1.0-SNAPSHOT.jar в root папке
-7. **DOCKER** --> ᐅ cd .docker
-LINKS: https://docs.spring.io/spring-boot/docs/current/reference/html/container-images.html
-       https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#build-image
-       https://github.com/GoogleContainerTools/jib
-       https://hub.docker.com/_/eclipse-temurin
+   1. **DOCKER** --> ᐅ cd .docker
+   LINKS: https://docs.spring.io/spring-boot/docs/current/reference/html/container-images.html
+          https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#build-image
+          https://github.com/GoogleContainerTools/jib
+          https://hub.docker.com/_/eclipse-temurin
 
-   ᐅ **STEP:** _docker build_ -> _docker run_ -> _docker pull_
-   ᐅ как закидывать image в dockerhub: 1) docker logout 
-                                       2) docker login 
-                                       3) войти в микросервис и выполнить команду равноценную package == mvn clean package -P build-docker-image
+      ᐅ **STEP:** _docker build_ -> _docker run_ -> _docker pull_
+      ᐅ как закидывать image в dockerhub: 1) docker logout 
+                                          2) docker login 
+                                          3) войти в микросервис и выполнить команду равноценную package == mvn clean package -P build-docker-image
+                                          4) чтобы все docker image сделать из Root проекта, вкл. Profiles maven == mvn clean package -P build-docker-image
+                                          5) единственное, прописываем запуск image в docker-compose.yaml
+                                          6) проверить логи **docker logs apigw** 
 
-      ᐅ
-      ᐅ
-      ᐅ
+         ᐅ
+         ᐅ
+         ᐅ
 
 
 
