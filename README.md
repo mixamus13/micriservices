@@ -15,8 +15,8 @@
                                           2) docker login 
                                           3) войти в микросервис и выполнить команду равноценную package == mvn clean package -P build-docker-image
                                           4) чтобы все docker image сделать из Root проекта, вкл. Profiles maven == mvn clean package -P build-docker-image
-                                          5) единственное, прописываем запуск image в docker-compose.yaml
-                                          6) проверить логи **docker logs apigw** 
+                                          5) единственное, прописываем запуск image в docker-compose.yaml || docker compose up -d || docker compose stop
+                                          6) проверить логи **docker logs apigw** || docker ps --format=$FORMAT
 
          ᐅ
          ᐅ

@@ -1,0 +1,10 @@
+2022-03-26 16:30:17 [INFO ] c.p.r.NativeLoader:64 - ********************************
+2022-03-26 16:30:17 [INFO ] c.p.r.NativeLoader:65 - Native library search paths: 
+2022-03-26 16:30:17 [INFO ] c.p.r.NativeLoader:992 - /Users/maxim/.config/PVS-Studio-Java/7.17.56957
+2022-03-26 16:30:17 [INFO ] c.p.r.NativeLoader:992 - .
+2022-03-26 16:30:17 [INFO ] c.p.r.NativeLoader:992 - /Users/maxim/.config/PVS-Studio-Java/7.17.56957/..
+2022-03-26 16:30:17 [INFO ] c.p.r.NativeLoader:992 - /Users/maxim/.config/PVS-Studio-Java/7.17.56957/../..
+2022-03-26 16:30:17 [INFO ] c.p.r.NativeLoader:992 - /Users/maxim/.config/PVS-Studio-Java/7.17.56957/../../build
+2022-03-26 16:30:17 [INFO ] c.p.r.NativeLoader:67 - Additional path: native/mac
+2022-03-26 16:30:17 [INFO ] c.p.r.NativeLoader:76 - Native library found: /Users/maxim/.config/PVS-Studio-Java/7.17.56957/native/mac/libanalysis-core.dylib
+2022-03-26 16:30:17 [INFO ] c.p.r.NativeLoader:77 - ********************************
