@@ -23,10 +23,15 @@
    ᐅ https://kubernetes.io/docs/home/
    ᐅ kubectl exec -it postgres-0 -- psql -U amigoscode --- вход в postgresql
    ᐅ kubectl get all
+   ᐅ kubectl get pods -w
    ᐅ minikube tunnel  || откроет у services с типом LoadBalancer порт EXTERNAL-IP
    ᐅ ---------- установить Profile Spring - SPRING_PROFILES_ACTIVE=default
-   ᐅ 
-   ᐅ 
+   ᐅ kubectl describe pod customer
+   ᐅ kubectl logs customer -f
+   ᐅ kubectl get svc
+   ᐅ
+   ᐅ
+   ᐅ
    ᐅ
 
 
