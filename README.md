@@ -30,9 +30,7 @@
    ᐅ kubectl logs customer -f
    ᐅ kubectl get svc
    ᐅ
-   ᐅ
-   ᐅ
-   ᐅ
+   ᐅ kubectl scale --replicas=0 deployment customer
 
 
 
