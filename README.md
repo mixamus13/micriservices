@@ -13,14 +13,21 @@
       ᐅ **STEP:** _docker build_ -> _docker run_ -> _docker pull_
       ᐅ как закидывать image в dockerhub: 1) docker logout 
                                           2) docker login 
-                                          3) войти в микросервис и выполнить команду равноценную package == mvn clean package -P build-docker-image
+                                          3) войти в microservice и выполнить команду равноценную package == mvn clean package -P build-docker-image
                                           4) чтобы все docker image сделать из Root проекта, вкл. Profiles maven == mvn clean package -P build-docker-image
                                           5) единственное, прописываем запуск image в docker-compose.yaml || docker compose up -d || docker compose stop
                                           6) проверить логи **docker logs apigw** || docker ps --format=$FORMAT
-
-         ᐅ
-         ᐅ
-         ᐅ
+7. minikube start --nodes=4
+   ᐅ minikube start --memory=4g ||| minikube start --driver=hyperkit --memory=4g ||| minikube set --driver=hyperkit
+   ᐅ minikube ip  ------ ip master node
+   ᐅ https://kubernetes.io/docs/home/
+   ᐅ kubectl exec -it postgres-0 -- psql -U amigoscode --- вход в postgresql
+   ᐅ kubectl get all
+   ᐅ minikube tunnel  || откроет у services с типом LoadBalancer порт EXTERNAL-IP
+   ᐅ ---------- установить Profile Spring - SPRING_PROFILES_ACTIVE=default
+   ᐅ 
+   ᐅ 
+   ᐅ
 
 
 
